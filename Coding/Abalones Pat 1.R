@@ -1,5 +1,4 @@
-<!-- 1. Preliminaries  -->
-  > View(abalones)
+> View(abalones)
 > mydata <- abalones
 > str(mydata) 
 > library(ggplot2)
