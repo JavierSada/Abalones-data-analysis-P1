@@ -7,31 +7,30 @@
 > mydata$VOLUME <- mydata$LENGTH * mydata$DIAM * mydata$HEIGHT
 > mydata$RATIO <- mydata$SHUCK / mydata$VOLUME
 
-<!-- Programming code 1(a)-->
-  > sumwhole <- summary(mydata)
-  > t2 <- data.frame(mydata$LENGTH, mydata$DIAM, mydata$HEIGHT, mydata$WHOLE, mydata$SHUCK, mydata$RINGS)
-  > skew(t2)
-  > kurtosi(t2)
-  > par(mfrow = c(1, 2))
-  > hist(mydata$LENGTH, main = "Histogram Length", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Leng", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
-  > boxplot(mydata$LENGTH, main = "Boxplot Length", col="firebrick3", pch=16)
-  > 
-    > par(mfrow = c(1,1))
-  > par(mfrow = c(2,2))
-  > hist(mydata$DIAM, main = "Histogram Diam", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Diam", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
-  > hist(mydata$HEIGHT, main = "Histogram Height", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Height", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
-  > boxplot(mydata$DIAM, main = "Boxplot Diam", col="firebrick3", pch=16)
-  > boxplot(mydata$HEIGHT, main = "Boxplot Height", col="firebrick3", pch=16)
-  >
-    > par(mfrow = c(1,1))
-  > par(mfrow = c(2,3))
-  > hist(mydata$WHOLE, main = "Histogram Whole", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Whole", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
-  > hist(mydata$SHUCK, main = "Histogram Shuck", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Shuck", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
-  > hist(mydata$RINGS, main = "Histogram Rings", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Rings", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
-  > boxplot(mydata$WHOLE, main = "Boxplot Whole", col="firebrick3", pch=16)
-  > boxplot(mydata$SHUCK, main = "Boxplot Shuck", col="firebrick3", pch=16)
-  > boxplot(mydata$RINGS, main = "Boxplot Rings", col="firebrick3", pch=16)
-  >
+> sumwhole <- summary(mydata)
+> t2 <- data.frame(mydata$LENGTH, mydata$DIAM, mydata$HEIGHT, mydata$WHOLE, mydata$SHUCK, mydata$RINGS)
+> skew(t2)
+> kurtosi(t2)
+> par(mfrow = c(1, 2))
+> hist(mydata$LENGTH, main = "Histogram Length", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Leng", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
+> boxplot(mydata$LENGTH, main = "Boxplot Length", col="firebrick3", pch=16)
+> 
+> par(mfrow = c(1,1))
+> par(mfrow = c(2,2))
+> hist(mydata$DIAM, main = "Histogram Diam", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Diam", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
+> hist(mydata$HEIGHT, main = "Histogram Height", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Height", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
+> boxplot(mydata$DIAM, main = "Boxplot Diam", col="firebrick3", pch=16)
+> boxplot(mydata$HEIGHT, main = "Boxplot Height", col="firebrick3", pch=16)
+
+> par(mfrow = c(1,1))
+> par(mfrow = c(2,3))
+> hist(mydata$WHOLE, main = "Histogram Whole", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Whole", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
+> hist(mydata$SHUCK, main = "Histogram Shuck", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Shuck", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
+> hist(mydata$RINGS, main = "Histogram Rings", cex.main=1.5, col="dodgerblue3", xlab = "Abalone Rings", ylab = "Frequency", cex.lab=0.8, cex.axis=0.8)
+> boxplot(mydata$WHOLE, main = "Boxplot Whole", col="firebrick3", pch=16)
+> boxplot(mydata$SHUCK, main = "Boxplot Shuck", col="firebrick3", pch=16)
+> boxplot(mydata$RINGS, main = "Boxplot Rings", col="firebrick3", pch=16)
+
     > skew(mydata$LENGTH)
   > skew(mydata$DIAM)
   > skew(mydata$HEIGHT)
