@@ -40,3 +40,14 @@ The tools that will be used in this exploratory data analysis are:
 ![G7](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture9.jpg)
 ![G8](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture10.jpg)
 ![G8](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture11.jpg)
+
+<h2 align="left">Conclusion</h2>
+1.	Too much weight was put into physical characteristics to determine abalone age, and the result is investigator’s appreciation come in play to group observations leading to miss classifications and ergo wrong data to draw conclusions from it. 
+
+2.	Physical abalone characteristics are partially helpful to predict age, but when physical characteristics are similar between different observations subjective appreciation from investigators is part of data classification.  
+
+3.	Even so many variables were include into the investigation, there’s a weakness in the model because factors such weather, location or government regulations are not part of it.
+
+4.	Similarly, failure to discover causal relations between variables (or assume there’s one) or the real impact of the different variables in predicting abalone’s age, lead to false discoveries and draw incorrect conclusions from it.
+
+When there is not a clear relation or correlation between variables the probability to have wrong conclusions is high, as mentioned before “ring clarity can be an issue. At the completion of the breeding season sexing abalone can be difficult. Similar difficulties are experienced when trying to determine the sex of immature abalone referred to as infants.”, physical features are not as clear as we might think and that implies that individual appreciation is a fact when data is grouped; at this point certain strong criteria with no room for interpretation should be put in place so investigator can classify data with standard features and no in personal terms. Causality can be accepted if statistics process are run into it and determine correlation degree, but just with see data in tables or graphs assuming causality is a great risk to draw mistaken conclusions from it. 
