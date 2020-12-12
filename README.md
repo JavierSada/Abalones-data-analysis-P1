@@ -27,3 +27,16 @@ The tools that will be used in this exploratory data analysis are:
 2.	Making exploratory graphs for singles variables to recognize the structure, distribution, identify outliers or any other atypical characteristic. 
 3.	Understand the possible relationship between variables, more specifically between categorical and numerical variables, to comprehend possible patterns and structures. 
 4.	Apply principles of analytic graphics, to understand the relations among variables, type of distribution, and variation in the different variables, central tendency measurements, data characteristics and identify outliers. Plotting the data permits the analyst to determine the extent to which the assumptions are valid and to catch obvious errors in data entry.
+
+<h2 align="left">Data Analysis: Statistical and Graphs</h2>
+
+![Descriptive Statistics](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture1.png)
+![G1](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture2.jpg)
+![G2](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture3.jpg)
+![G3](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture4.jpg)
+![G4](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture5.jpg)
+![G5](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture6.jpg)
+![G6](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture8.jpg)
+![G7](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture9.jpg)
+![G8](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture10.jpg)
+![G8](https://github.com/JavierSada/Abalones-data-analysis-P1/blob/main/Support/Picture11.jpg)
